@@ -1,12 +1,38 @@
-# py_app
-A simple pyhton kivy app 
+################################
+#
+# File Name: README
+#
+# Date: 18.12.2020
+#
+# developer: Ludwig Rössler 
+#
+#################################
 
-First change File 
 
-test 123
+########################
+# install pyhton + pip #
+########################
+https://www.python.org/downloads/
 
-<<<<<<< HEAD
-test 2
-=======
-gitlab change 1
->>>>>>> 7c0d1a5c6ad343d2da1cef43555d2c7696ead94d
+#########################
+# install kivy        ###
+#########################
+https://kivy.org/doc/stable/gettingstarted/installation.html
+
+
+py -m pip install --upgrade pip setuptools virtualenv
+py -m virtualenv kivy_venv
+py -m pip install kivy[base] kivy_examples
+py -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+py -m pip install kivy.deps.gstreamerCollecting docutils
+py -m pip install kivy.deps.angle
+py -m pip install kivy
+py -m pip install kivy_examples
+py -m pip install pygame
+#########################
+# git commands         ##
+#########################
+git clone
+git push
+git lab
+git pull
