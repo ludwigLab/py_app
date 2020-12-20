@@ -1,0 +1,29 @@
+<MyGrid>
+
+    username: usernameId
+    password: passwordId
+
+    GridLayout:
+        cols:1
+        size: root.width -200, root.height -200
+        pos: 100,100
+        
+        GridLayout:
+            cols:2 
+            Label:
+                text: "Username: "
+                
+            TextInput:
+                multiline: False
+                id: usernameId
+                
+            Label:
+                text: "Password: "
+                
+            TextInput:
+                multiline: False
+                id: passwordId
+                
+        Button:
+            text: "Login"
+            on_press: root.funcButtonClick()
