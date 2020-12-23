@@ -1,12 +1,20 @@
 ################################
 #
-# File Name: main.py
+# File Name: kivy_login_form.üy
 #
 # Date: 18.12.2020
 #
-# developer: Ludwig Rössler 
+# developer: Ludwig Rössler
+#
+# how to use kivy with propertie file my.kv
 #
 #################################
+
+######################
+# FloatLayout        #
+######################
+# Dynmaic plament
+
 
 ##########################
 # externel imports  
@@ -19,7 +27,8 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
 from kivy.uix.widget import Widget
 from kivy.properties import ObjectProperty
-# Tamplate commands
+
+
 ######################
 #
 ######################
